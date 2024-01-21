@@ -21,28 +21,28 @@ def move25():
 
 
 # Constants
-MOVEMENT_DISTANCE_CM = 2.5  # Distance to move in centimeters
-WHEEL_DIAMETER_CM = 6.5   # Diameter of the wheels in centimeters
+#MOVEMENT_DISTANCE_CM = 2.5  # Distance to move in centimeters
+#WHEEL_DIAMETER_CM = 6.5   # Diameter of the wheels in centimeters
 
 # Calculate the number of revolutions needed to cover the distance
-revolutions = MOVEMENT_DISTANCE_CM / (WHEEL_DIAMETER_CM * 3.14159)
+#revolutions = MOVEMENT_DISTANCE_CM / (WHEEL_DIAMETER_CM * 3.14159)
 
 # Set the speed of the car (adjust as needed)
-set_speed(20)
+#set_speed(20)
 
 # Move backward by the calculated distance
-backward(revolutions)
+#backward(revolutions)
 
 # Allow time for the movement to complete
-time.sleep(2)
+#time.sleep(2)
 
 # Stop the car
-stop()
+#stop()
 
-try:
-    while True:
-        fc.forward(50)
-        time.sleep(1)
-finally:
-    fc.stop()
-    time.sleep(0.2)
+#try:
+#    while True:
+#        fc.forward(50)
+#        time.sleep(1)
+#finally:
+#    fc.stop()
+#    time.sleep(0.2)
